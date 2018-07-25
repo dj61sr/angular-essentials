@@ -7,6 +7,9 @@ import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { CartComponent } from './cart-component/cart-component';
+import { TabsComponent } from './tabs/tabs.component';
+import { ListComponent } from './list/list.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CartComponent } from './cart-component/cart-component';
     UserComponent,
     DashboardComponent,
     UserDetailComponent,
-    CartComponent
+    CartComponent,
+    TabsComponent,
+    ListComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
