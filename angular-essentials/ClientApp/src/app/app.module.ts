@@ -10,6 +10,8 @@ import { CartComponent } from './cart-component/cart-component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ListComponent } from './list/list.component';
 import { ItemComponent } from './item/item.component';
+import { StarWarsService } from './star-wars.service';
+import { LogService } from '../log.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,7 @@ import { ItemComponent } from './item/item.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [StarWarsService, LogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
