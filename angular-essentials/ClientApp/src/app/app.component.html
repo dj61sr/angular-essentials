@@ -1,4 +1,3 @@
-
 <!--<div style="text-align:center">
   <h1>
     {{ title }} Welcome to Web Essentials !
@@ -9,16 +8,22 @@
 <app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>-->
 <!--<p>{{ number }}</p>
 <button class="btn btn-primary" (click)="onIncrease()">Random number</button>-->
-<!--<hr/>
+<!--<hr />
 <div>
   <app-cart-component (itemAdded)="onItemWasAdded($event)"></app-cart-component>
 </div>-->
 
 <div class="container">
   <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <app-header></app-header>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-xs-12">
-      <app-tabs></app-tabs>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
-

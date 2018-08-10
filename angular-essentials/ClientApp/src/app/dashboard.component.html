@@ -4,12 +4,12 @@
     <title>dashboard.component</title>
 </head>
 <body>
-<div >
+<div>
   <button (click)="onChangeState()">Switch State</button>
 </div>
 <!--<p>{{ loadState }}</p>-->
 <p [textContent]="loadState"></p>
-<!--<input type="text" (input)="loadState = $event.target.value"/>-->
-<input type="text" [(ngModel)]="loadState"/>
+<!--<input type="text" (input)="loadState = $event.target.value" />-->
+<input type="text" [(ngModel)]="loadState" />
 </body>
 </html>

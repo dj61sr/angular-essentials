@@ -1,8 +1,7 @@
 import { Component, Output } from '@angular/core';
-import {random} from 'lodash';
+import { random } from 'lodash';
 
 //declare var _: any;
-
 
 @Component({
   selector: 'app-root',
@@ -28,11 +27,4 @@ export class AppComponent {
     this.items.push(newItem);
     console.log(this.items);
   }
-
- }
-
-  
-  
-  
-
-  
+}
